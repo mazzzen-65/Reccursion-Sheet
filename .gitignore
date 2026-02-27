@@ -366,3 +366,8 @@ FodyWeavers.xsd
 Reccursion Sheet.slnx
 *.sln
 *.slnx
+
+# vcxproj - filters - user files
+*.vcxproj
+*.filters
+*.user
