@@ -13,10 +13,19 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Print Recursion">
+      <UniqueIdentifier>{6cd7214d-0c35-42a2-ac72-43880bbb3544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Print From 1 to N">
+      <UniqueIdentifier>{d3354b41-7ab2-4532-95e2-57ffde309f8e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Reccursion Sheet.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Print Recursion.cpp">
+      <Filter>Source Files\Print Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="Print from 1 to N.cpp">
+      <Filter>Source Files\Print From 1 to N</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
