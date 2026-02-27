@@ -6,8 +6,8 @@ void print(int n) {
 		return;
 	}
 
-	print(n - 1);
-	cout << n << endl;
+	print (n-1)
+	cout << n;
 }
 
 int main() {
