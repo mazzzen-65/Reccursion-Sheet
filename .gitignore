@@ -364,3 +364,5 @@ FodyWeavers.xsd
 
 # solution file
 Reccursion Sheet.slnx
+*.sln
+*.slnx
