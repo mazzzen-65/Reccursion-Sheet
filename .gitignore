@@ -371,3 +371,5 @@ Reccursion Sheet.slnx
 *.vcxproj
 *.filters
 *.user
+*.vcxproj.filters
+*.vcxproj.user
