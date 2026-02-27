@@ -1,21 +1,21 @@
 #include <iostream>
 using namespace std;
 
-void print(int n) {
-	if (n < 10) {
-		cout << n << " ";
+void convert(int n) {
+	if (n == 0) {
 		return;
 	}
-	print(n / 10);
-	cout << n % 10 << " ";
+	convert(n / 2);
+	cout << n % 2;
 }
 
 int main() {
-	int s; cin >> s;
-	for (int i = 0; i <= s; i++) {
-		int num;
-		cin >> num; cout << endl;
-		print(num);
+	long s; cin >> s;
+	for (int i = 0; i <= s-1; i++) {
+		long num;
+		cin >> num;
+		convert(num);
+		cout << endl;
 	}
 	return 0;
 }
