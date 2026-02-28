@@ -1,21 +1,24 @@
 #include <iostream>
+#include <vector>
+#include <algorithm>
 using namespace std;
 
-void convert(int n) {
-	if (n == 0) {
+void evenNum(int arr[],int index, int size) {
+	if (index == size) {
 		return;
 	}
-	convert(n / 2);
-	cout << n % 2;
+	evenNum(arr, index + 1, size);
+	if (index % 2 == 0) {
+		cout << arr[index] << " ";
+	}
 }
 
 int main() {
-	long s; cin >> s;
-	for (int i = 0; i <= s-1; i++) {
-		long num;
-		cin >> num;
-		convert(num);
-		cout << endl;
+	int s; cin >> s;
+	int arr[s];
+	int i = 0;
+	for (i; i < s ; i++) {
+		cin >> arr[i];
 	}
-	return 0;
+	evenNum(arr, 0, s);
 }
